@@ -15,6 +15,10 @@ psutil
 supervisor
 
 #torch
+--index-url https://download.pytorch.org/whl/nightly/cu130
+torch --pre
+torchvision --pre
+torchaudio --pre
 
 # CLI
 click==8.1.8
